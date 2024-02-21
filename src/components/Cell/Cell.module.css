@@ -1,0 +1,49 @@
+.cell_root {
+	flex: 1;
+	border: 0.5px solid lightgray;
+	width: 30px;
+	max-width: 30px;
+	height: 30px;
+	background: white;
+	color: #222;
+}
+
+.cell_highlight {
+	background: rgb(223, 252, 255);
+}
+
+.cell_highlight_dark {
+	background: rgb(194, 230, 255);
+}
+
+.cell_border_top {
+	border-top: 1px solid black;
+}
+
+.cell_border_right {
+	border-right: 1px solid black;
+}
+
+.cell_border_bottom {
+	border-bottom: 1px solid black;
+}
+
+.cell_border_left {
+	border-left: 1px solid black;
+}
+
+.cell_input {
+	background: none;
+	border: none;
+	width: 100%;
+	color: inherit;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.cell_input:focus {
+	outline: none;
+	border: 1px solid blue;
+}

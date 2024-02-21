@@ -1,0 +1,9 @@
+.grid_root {
+	display: inline-block;
+	margin: auto;
+}
+
+.grid_row {
+	display: flex;
+	flex-direction: row;
+}
