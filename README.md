@@ -4,6 +4,8 @@ Given an unfinished [Sudoku](https://en.wikipedia.org/wiki/Sudoku) game, this ap
 
 This was written for fun as a frontend webapp using React + Typescript + Vite.
 
+![screenshot](images/screenshot.png)
+
 ## Getting Started
 
 1. npm install
