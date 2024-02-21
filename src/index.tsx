@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './components/App/App.tsx'
 import * as gameStateHistory from './store/gameStateHistory';
 import * as game from './lib/game';
+import * as sample from './lib/sample.ts';
 
 function init() {
-  gameStateHistory.initialise(); // empty grid
+  gameStateHistory.initialise(sample.grids[0]); // empty grid
   gameStateHistory.loadHistoryFromLocalStorage();
 
   gameStateHistory.subscribe(() => {
